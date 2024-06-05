@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_banks"
+        android:icon="@drawable/ic_action_account_balance"
+        android:title="@string/banks" />
+    <item
+        android:id="@+id/navigation_mailac"
+        android:icon="@drawable/ic_action_alternate_email"
+        android:title="@string/mailac" />
+    <item
+        android:id="@+id/navigation_sociaclnet"
+        android:icon="@drawable/ic_action_supervisor_account"
+        android:title="@string/sociaclnet" />
+    <item
+        android:id="@+id/navigation_other"
+        android:icon="@drawable/ic_action_archive"
+        android:title="@string/other" />
+</menu>

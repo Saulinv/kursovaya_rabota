@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">kursovaya_rabota</string>
+    <string name="Login">Логин</string>
+    <string name="Password">Пароль</string>
+    <string name="entrance">Войти</string>
+    <string name="LoginToTheApplication">Вход в приложение</string>
+    <string name="Catalog">Каталог</string>
+    <string name="manegecat">Менеджер категорий</string>
+    <string name="managefil">Менеджер полей</string>
+    <string name="genkey">Сгенерировать пароль</string>
+    <string name="menu_search">Меню</string>
+    <string name="mankey">Менеджер паролей</string>
+    <string name="autor">Выполнял ученик группы\nРИБО-01-22\nСаулин Иван</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="savepassword">Введите данные для сохранения пароля</string>
+    <string name="website">Сайт</string>
+    <string name="addpassword">Добавить пароль</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="banks">Банки</string>
+    <string name="mailac">Почтовые аккаунты</string>
+    <string name="sociaclnet">Социальные сети</string>
+    <string name="other">Прочее</string>
+    <string name="btnGenerate">Сгенерировать</string>
+    <string name="selectcategoty">Выберите категорию</string>
+    <string name="welcome">Введите мастер-пароль</string>
+    <string name="entermasterpass">Введите мастер-пароль</string>
+    <string name="lookencpass">Покажи зашифрованный пароль</string>
+    <string name="delete">Удалить</string>
+    <string name="category">Категория</string>
+    <string name="Encrpassword">Зашифрованный пароль</string>
+    <string name="setmasterpass">Зайдайте мастер-пароль</string>
+    <string name="copy">Копировать</string>
+    <string-array name="spincategory">
+        <item>@string/selectcategoty</item>
+        <item>@string/banks</item>
+        <item>@string/mailac</item>
+        <item>@string/sociaclnet</item>
+        <item>@string/other</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/menu_search"
+        android:id="@+id/menus"
+        android:icon="@drawable/baseline_menu_24"
+        app:showAsAction="always">
+        <menu>
+
+            <item
+                android:id="@+id/generatekeys"
+                android:icon="@drawable/ic_action_vpn_key"
+                android:title="@string/genkey"/>
+        </menu>
+    </item>
+</menu>

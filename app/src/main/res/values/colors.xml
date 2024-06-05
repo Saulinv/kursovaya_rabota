@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#4188D2</color>
+    <color name="blue_700">#154E89</color>
+    <color name="blue_600">#4C749E</color>
+    <color name="blue_500">#4188D2</color>
+    <color name="blue_400">#70ABE9</color>
+    <color name="orange_700">#A66C15</color>
+    <color name="orange_600">#BF9454</color>
+    <color name="orange_500">#FFB340</color>
+    <color name="orange_400">#FFC670</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+</resources>

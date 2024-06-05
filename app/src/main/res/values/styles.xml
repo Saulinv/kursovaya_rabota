@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="Widget.Theme.Kursovaya_rabota.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="android:color">@color/blue_500</item>
+    </style>
+</resources>
