@@ -86,35 +86,6 @@ public class AddPasswordActivity extends AppCompatActivity implements AdapterVie
         }
 
     }
-    private void addLogin() {
-        String username = etUsername.getText().toString();
-        String password = etPassword.getText().toString();
-        String website = etWebsite.getText().toString();
-        String catalog = spinnerCategory.getSelectedItem().toString();
-
-        if (username.isEmpty() || password.isEmpty() || website.isEmpty() || catalog.isEmpty()) {
-            Toast.makeText(this, "Введите логин, пароль или сайт", Toast.LENGTH_LONG).show();
-            return;
-        }
-
-        SQLiteDatabase db = dbHelper.getWritableDatabase();
-        ContentValues values = new ContentValues();
-        values.put(DBHelper.COLUMN_USERNAME, username);
-        values.put(DBHelper.COLUMN_PASSWORD, password);
-        values.put(DBHelper.COLUMN_WEBSITE, website);
-        values.put(DBHelper.COLUMN_CATEGORY, catalog);
-
-
-        long newRowId = db.insert(DBHelper.TABLE_NAME, null, values);
-        db.close();
-        values.clear();
-        if (newRowId != -1) {
-            Toast.makeText(this, "Данные успешно добавлены", Toast.LENGTH_LONG).show();
-        } else {
-            Toast.makeText(this, "Ошибка добавления данных", Toast.LENGTH_LONG).show();
-        }
-
-    }
 
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
