@@ -43,12 +43,12 @@ public class SetMasterPasswordActivity extends AppCompatActivity {
                     SharedPreferences.Editor editor = sharedPreferences.edit();
                     editor.putString(MASTER_PASSWORD_KEY, hashedPassword);
                     editor.apply();
-                    Toast.makeText(SetMasterPasswordActivity.this, "Master Password saved successfully", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SetMasterPasswordActivity.this, "Мастер-пароль успешно сохранен", Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(SetMasterPasswordActivity.this, MainApplicationActivity.class);
                     startActivity(intent);
                     finish();
                 } else {
-                    Toast.makeText(SetMasterPasswordActivity.this, "Please enter the master password", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SetMasterPasswordActivity.this, "Пожалуйста введите мастер-пароль", Toast.LENGTH_SHORT).show();
                 }
             }
         });

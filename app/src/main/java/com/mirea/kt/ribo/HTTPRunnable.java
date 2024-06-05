@@ -74,11 +74,11 @@ public class HTTPRunnable implements Runnable {
                     responseBody = sbResponse.toString();
                 }else{
 
-                    Log.d("MY_LOG","Error! Bad response code!");
+                    Log.d("MY_LOG","Ошибка! Неверный ответный код!");
                 }
             }catch(IOException ex){
 
-                Log.d("MY_LOG","Error: " + ex.getMessage());
+                Log.d("MY_LOG","Ошибка: " + ex.getMessage());
             }
         }
     }

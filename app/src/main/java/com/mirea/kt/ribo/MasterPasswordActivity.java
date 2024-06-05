@@ -42,7 +42,7 @@ public class MasterPasswordActivity extends AppCompatActivity {
                     SharedPreferences sharedPreferences = getSharedPreferences(MASTER_PREFS, MODE_PRIVATE);
                     String maspassword = sharedPreferences.getString(MASTER_PASSWORD_KEY,"");
                     if (maspassword.equals(hashedPassword)){
-                        Toast.makeText(MasterPasswordActivity.this, "Master Password saved successfully", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MasterPasswordActivity.this, "Мастер-пароль успешно сохранен", Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(MasterPasswordActivity.this, MainApplicationActivity.class);
                         startActivity(intent);
                         finish();
@@ -52,7 +52,7 @@ public class MasterPasswordActivity extends AppCompatActivity {
                     }
 
                 } else {
-                    Toast.makeText(MasterPasswordActivity.this, "Please enter the master password", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MasterPasswordActivity.this, "Пожалуйста введите мастер-пароль", Toast.LENGTH_SHORT).show();
                 }
             }
         });

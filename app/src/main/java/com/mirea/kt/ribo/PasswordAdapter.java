@@ -48,9 +48,9 @@ public class PasswordAdapter extends RecyclerView.Adapter<PasswordAdapter.Passwo
                 passwordList.remove(position);
                 notifyItemRemoved(position);
                 notifyItemRangeChanged(position, passwordList.size());
-                Toast.makeText(v.getContext(), "Password deleted successfully", Toast.LENGTH_SHORT).show();
+                Toast.makeText(v.getContext(), "Пароль успешно удалён", Toast.LENGTH_SHORT).show();
             } else {
-                Toast.makeText(v.getContext(), "Error deleting password", Toast.LENGTH_SHORT).show();
+                Toast.makeText(v.getContext(), "Ошибка удаления пароля", Toast.LENGTH_SHORT).show();
             }
         });
 

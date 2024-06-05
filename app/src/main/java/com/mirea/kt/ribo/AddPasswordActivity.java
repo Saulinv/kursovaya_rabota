@@ -51,11 +51,11 @@ public class AddPasswordActivity extends AppCompatActivity implements AdapterVie
                 try {
                     String encryptedPassword = EncryptionHelper.encrypt(password, masterPassword);
                     dbHelper.addPassword(username, encryptedPassword, website, category);
-                    Toast.makeText(AddPasswordActivity.this, "Password saved successfully", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(AddPasswordActivity.this, "Пароль успешно сохранен", Toast.LENGTH_SHORT).show();
                     finish();
                 } catch (Exception e) {
                     e.printStackTrace();
-                    Toast.makeText(AddPasswordActivity.this, "Error encrypting password", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(AddPasswordActivity.this, "Ошибка сохранения пароля", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -81,7 +81,7 @@ public class AddPasswordActivity extends AppCompatActivity implements AdapterVie
         masterPassword = sharedPreferences.getString("master_password", null);
 
         if (masterPassword == null) {
-            Toast.makeText(this, "Master password is not set", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Мастер-пароль не установлен", Toast.LENGTH_SHORT).show();
             return;
         }
 
